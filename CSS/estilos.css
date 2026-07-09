@@ -40,10 +40,21 @@ img{
 /* Header */
 
 header{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
     width: 100%;
-    padding: 20px 60px;
+
+    padding: 18px 80px;
+
     background-color: #FFFFFF;
+
     border-bottom: 1px solid #E5E7EB;
+
 }
 
 /* Logo */
@@ -55,7 +66,7 @@ header{
 }
 
 .logo img{
-    width: 120px;
+    width: 90px;
     height: auto;
 }
 
@@ -67,28 +78,133 @@ header{
 
 /* Menú */
 
-nav{
-    margin-top: 20px;
-}
-
 nav ul{
+
     display: flex;
-    justify-content: center;
-    gap: 30px;
+
+    align-items: center;
+
+    gap: 35px;
+
+    list-style: none;
+
 }
 
-nav a{
+nav ul li a{
+
+    text-decoration: none;
+
     color: #1F2937;
-    font-weight: 500;
-    transition: color 0.3s;
+
+    font-weight: 600;
+
+    transition: .3s;
+
 }
 
-nav a:hover{
+nav ul li a:hover{
+
     color: #1E3A8A;
-}
 
+}
 /* Banner */
 
+.banner{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 40px 80px;
+
+    gap: 40px;
+
+}
+
+
+/* Texto */
+
+.banner-texto{
+
+    width: 48%;
+
+}
+
+.banner-texto h2{
+
+    font-size: 44px;
+
+    color: #1f3c88;
+
+    line-height: 1.2;
+
+    margin-bottom: 25px;
+
+}
+
+.banner-texto p{
+
+    font-size: 19px;
+
+    color: #555;
+
+    line-height: 1.8;
+
+    margin-bottom: 35px;
+
+}
+
+
+/* Botón */
+
+.btn-banner{
+
+    display: inline-block;
+
+    background-color: #1f3c88;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 30px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+.btn-banner:hover{
+
+    background-color: #2952b3;
+
+}
+
+
+/* Imagen */
+
+.banner-imagen{
+
+    width: 52%;
+
+}
+
+.banner-imagen img{
+
+    width: 100%;
+
+    display: block;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,.15);
+
+}
 
 /* Nosotros */
 
