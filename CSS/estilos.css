@@ -1,0 +1,108 @@
+/* Reinicio de estilos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    color: #1F2937;
+    line-height: 1.6;
+}
+
+/* Enlaces */
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Listas */
+
+ul{
+    list-style: none;
+}
+
+/* Imágenes */
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Header */
+
+header{
+    width: 100%;
+    padding: 20px 60px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+/* Logo */
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img{
+    width: 120px;
+    height: auto;
+}
+
+.logo h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #1E3A8A;
+}
+
+/* Menú */
+
+nav{
+    margin-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a{
+    color: #1F2937;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #1E3A8A;
+}
+
+/* Banner */
+
+
+/* Nosotros */
+
+
+/* Servicios */
+
+
+/* Galería */
+
+
+/* Contacto */
+
+
+/* Footer */
+
+
+/* Responsive */
