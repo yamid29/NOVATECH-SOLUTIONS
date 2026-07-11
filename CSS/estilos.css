@@ -54,7 +54,6 @@ header {
     background-color: #FFFFFF;
 
     border-bottom: 1px solid #E5E7EB;
-
 }
 
 /* Logo */
@@ -209,7 +208,47 @@ nav ul li a:hover {
 
 /* Nosotros */
 
+.nosotros{
+    width: 100%;
+    padding: 80px 60px;
+    background-color: #F9FAFB;
+}
 
+.nosotros-contenido{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nosotros-texto{
+    flex: 1;
+}
+
+.nosotros-texto h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-bottom: 20px;
+}
+
+.nosotros-texto p{
+    font-size: 16px;
+    color: #4B5563;
+    text-align: justify;
+}
+
+.nosotros-imagen{
+    flex: 1;
+}
+
+.nosotros-imagen img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 /* Servicios */
 /* ==========================
    SECCIÓN SERVICIOS
@@ -398,3 +437,39 @@ nav ul li a:hover {
 
 
 /* Responsive */
+@media (max-width: 768px){
+
+    header{
+        padding: 20px;
+    }
+
+
+    .logo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+
+    .nosotros{
+        padding: 40px 20px;
+    }
+
+
+    .nosotros-contenido{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .nosotros-texto h2{
+        font-size: 28px;
+    }
+
+}
