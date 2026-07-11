@@ -1,6 +1,6 @@
 /* Reinicio de estilos */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 /* Estilos generales */
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
     color: #1F2937;
@@ -18,20 +18,20 @@ body{
 
 /* Enlaces */
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
 /* Listas */
 
-ul{
+ul {
     list-style: none;
 }
 
 /* Imágenes */
 
-img{
+img {
     max-width: 100%;
     display: block;
 }
@@ -39,7 +39,7 @@ img{
 
 /* Header */
 
-header{
+header {
 
     display: flex;
 
@@ -58,18 +58,18 @@ header{
 
 /* Logo */
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.logo img{
+.logo img {
     width: 90px;
     height: auto;
 }
 
-.logo h1{
+.logo h1 {
     font-size: 28px;
     font-weight: 600;
     color: #1E3A8A;
@@ -77,7 +77,7 @@ header{
 
 /* Menú */
 
-nav ul{
+nav ul {
 
     display: flex;
 
@@ -89,7 +89,7 @@ nav ul{
 
 }
 
-nav ul li a{
+nav ul li a {
 
     text-decoration: none;
 
@@ -101,14 +101,15 @@ nav ul li a{
 
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
 
     color: #1E3A8A;
 
 }
+
 /* Banner */
 
-.banner{
+.banner {
 
     display: flex;
 
@@ -125,13 +126,13 @@ nav ul li a:hover{
 
 /* Texto */
 
-.banner-texto{
+.banner-texto {
 
     width: 48%;
 
 }
 
-.banner-texto h2{
+.banner-texto h2 {
 
     font-size: 44px;
 
@@ -143,7 +144,7 @@ nav ul li a:hover{
 
 }
 
-.banner-texto p{
+.banner-texto p {
 
     font-size: 19px;
 
@@ -158,7 +159,7 @@ nav ul li a:hover{
 
 /* Botón */
 
-.btn-banner{
+.btn-banner {
 
     display: inline-block;
 
@@ -178,7 +179,7 @@ nav ul li a:hover{
 
 }
 
-.btn-banner:hover{
+.btn-banner:hover {
 
     background-color: #2952b3;
 
@@ -187,13 +188,13 @@ nav ul li a:hover{
 
 /* Imagen */
 
-.banner-imagen{
+.banner-imagen {
 
     width: 52%;
 
 }
 
-.banner-imagen img{
+.banner-imagen img {
 
     width: 100%;
 
@@ -201,7 +202,7 @@ nav ul li a:hover{
 
     border-radius: 15px;
 
-    box-shadow: 0px 8px 20px rgba(0,0,0,.15);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .15);
 
 }
 
@@ -249,7 +250,182 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 /* Servicios */
+/* ==========================
+   SECCIÓN SERVICIOS
+========================== */
 
+.servicios {
+
+    padding: 70px 10%;
+    background: #f8f9fa;
+
+}
+
+
+/* Título */
+
+.titulo-servicios {
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+.titulo-servicios h2 {
+
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+
+.titulo-servicios p {
+
+    max-width: 900px;
+    margin: auto;
+
+    font-size: 17px;
+    line-height: 1.8;
+
+    color: #555;
+
+}
+
+
+/* Contenedor */
+
+.contenedor-servicios {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+}
+
+
+/* Tarjetas */
+
+.tarjeta-servicio {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+
+    transition: 0.3s ease;
+
+}
+
+
+/* Hover */
+
+.tarjeta-servicio:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+
+}
+
+
+/* Texto a la izquierda */
+
+.contenido-servicio {
+
+    flex: 1;
+
+    order: 1;
+
+}
+
+
+.contenido-servicio h3 {
+
+    font-size: 26px;
+
+    margin-bottom: 15px;
+
+    color: #0b4f8a;
+
+}
+
+
+.contenido-servicio p {
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    color: #444;
+
+}
+
+
+
+/* Imagen pequeña a la derecha */
+
+.tarjeta-servicio img {
+
+    width: 170px;
+
+    height: 120px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    order: 2;
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px) {
+
+
+    .tarjeta-servicio {
+
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+    }
+
+
+    .tarjeta-servicio img {
+
+        width: 200px;
+
+        height: 150px;
+
+    }
+
+
+    .contenido-servicio p {
+
+        text-align: center;
+
+    }
+
+}
 
 /* Galería */
 
