@@ -35,10 +35,10 @@
 
             <ul>
 
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#servicios" <>Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
 
             </ul>
 
@@ -51,40 +51,39 @@
 
 
 
-<!-- Nosotros -->
+    <!-- Nosotros -->
 
 
-<section class="nosotros">
+    <section id="nosotros" class="nosotros">
 
-    <div class="nosotros-contenido">
+        <div class="nosotros-contenido">
 
-        <div class="nosotros-texto">
+            <div class="nosotros-texto">
 
-            <h2>Nosotros</h2>
+                <h2>Nosotros</h2>
 
-            <p>
-                En NovaTech Solutions desarrollamos soluciones tecnológicas
-                innovadoras orientadas a mejorar los procesos empresariales.
-                Nuestro compromiso es ofrecer herramientas digitales modernas,
-                eficientes y seguras que impulsen el crecimiento de nuestros
-                clientes mediante el uso de las tecnologías más actuales.
-            </p>
+                <p>
+                    En NovaTech Solutions desarrollamos soluciones tecnológicas
+                    innovadoras orientadas a mejorar los procesos empresariales.
+                    Nuestro compromiso es ofrecer herramientas digitales modernas,
+                    eficientes y seguras que impulsen el crecimiento de nuestros
+                    clientes mediante el uso de las tecnologías más actuales.
+                </p>
+
+            </div>
+
+
+            <div class="nosotros-imagen">
+
+                <img src="../img/tecnologia.jpg" alt="Equipo de tecnología trabajando">
+
+            </div>
 
         </div>
 
-
-        <div class="nosotros-imagen">
-
-            <img src="../img/tecnologia.jpg" 
-            alt="Equipo de tecnología trabajando">
-
-        </div>
-
-    </div>
-
-</section>
+    </section>
     <main>
-        <section class="banner">
+        <section id="inicio" class="banner">
 
 
             <div class="banner-texto">
@@ -104,7 +103,7 @@
 
             <div class="banner-imagen">
 
-                <img src="img/img2.png" alt="Banner principal">
+                <img src="../img/img2.png" alt="Banner principal">
 
             </div>
 
@@ -112,10 +111,8 @@
 
         <!-- Servicios -->
 
-        <section class="servicios">
-            <section id="servicios">
+        <section id="servicios" class="servicios">
 
-            </section>
 
             <div class="titulo-servicios">
 
@@ -135,10 +132,10 @@
             <div class="contenedor-servicios">
 
 
-                <!-- Servicio 1 -->
+
                 <div class="tarjeta-servicio">
 
-                    <img src="img/imgser1.png" alt="Desarrollo Tecnológico">
+                    <img src="../img/imgser1.png" alt="Desarrollo Tecnológico">
 
                     <div class="contenido-servicio">
 
@@ -159,10 +156,10 @@
 
 
 
-                <!-- Servicio 2 -->
+
                 <div class="tarjeta-servicio">
 
-                    <img src="img/imgser2.png" alt="Soporte y Soluciones">
+                    <img src="../img/imgser2.png" alt="Soporte y Soluciones">
 
                     <div class="contenido-servicio">
 
@@ -181,10 +178,10 @@
 
 
 
-                <!-- Servicio 3 -->
+
                 <div class="tarjeta-servicio">
 
-                    <img src="img/imgser3.png" alt="Innovación Digital">
+                    <img src="../img/imgser3.png" alt="Innovación Digital">
 
                     <div class="contenido-servicio">
 
@@ -203,10 +200,10 @@
 
 
 
-                <!-- Servicio 4 -->
+
                 <div class="tarjeta-servicio">
 
-                    <img src="img/imgser4.png" alt="Consultoría Tecnológica">
+                    <img src="../img/imgser4.png" alt="Consultoría Tecnológica">
 
                     <div class="contenido-servicio">
 
@@ -225,10 +222,10 @@
 
 
 
-                <!-- Servicio 5 -->
+
                 <div class="tarjeta-servicio">
 
-                    <img src="img/imgser5.png" alt="Seguridad Digital">
+                    <img src="../img/imgser5.png" alt="Seguridad Digital">
 
                     <div class="contenido-servicio">
 
@@ -249,9 +246,175 @@
 
             </div>
 
-
         </section>
 
-    </main>
+        <main>
+
+
+            <!--CONTACTO -->
+
+
+            <section id="contacto" class="contacto">
+
+
+                <div class="llamada-contacto">
+
+                    <h2>
+                        ¿Necesitas una solución tecnológica?
+                    </h2>
+
+
+                    <p>
+                        En NovaTech Solutions estamos preparados para ayudarte
+                        a desarrollar soluciones digitales, páginas web y sistemas
+                        personalizados que impulsen el crecimiento de tu empresa.
+                    </p>
+
+
+                    <a href="#formulario-contacto" class="btn-contacto">
+                        Contáctenos
+                    </a>
+
+
+                </div>
+
+
+
+
+                <div id="formulario-contacto" class="formulario-contenedor">
+
+
+                    <h2>
+                        Formulario de Contacto
+                    </h2>
+
+
+                    <form>
+
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+
+
+                        <label for="correo">
+                            Correo
+                        </label>
+
+                        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico"
+                            required>
+
+
+
+                        <label for="asunto">
+                            Asunto
+                        </label>
+
+                        <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+
+
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escriba su mensaje"
+                            required></textarea>
+
+
+
+                        <button type="submit">
+                            Enviar mensaje
+                        </button>
+
+
+                    </form>
+
+
+                </div>
+
+
+            </section>
+
+        </main>
+        <footer class="footer">
+
+            <div class="footer-contenedor">
+
+                <!-- Logo y descripción -->
+                <div class="footer-seccion">
+
+                    <img src="../img/img1.png" alt="Logo de NovaTech Solutions" class="footer-logo">
+
+                    <h3>NovaTech Solutions</h3>
+
+                    <p>
+                        En NovaTech Solutions desarrollamos soluciones tecnológicas innovadoras
+                        para impulsar la transformación digital de empresas y emprendedores,
+                        ofreciendo herramientas digitales modernas, seguras y eficientes.
+                    </p>
+
+                </div>
+
+                <!-- Menú rápido -->
+                <div class="footer-seccion">
+
+                    <h3>Menú rápido</h3>
+
+                    <ul>
+
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="footer-seccion">
+
+                    <h3>Redes Sociales</h3>
+
+                    <ul>
+
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">X (Twitter)</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Información de contacto -->
+                <div class="footer-seccion">
+
+                    <h3>Contacto</h3>
+
+                    <p>📧 contacto@novatechsolutions.com</p>
+
+                    <p>📞 +57 300 123 4567</p>
+
+                    <p>📍 Colombia</p>
+
+                </div>
+
+            </div>
+
+            <div class="footer-copy">
+
+                <p>
+                    &copy; 2026 NovaTech Solutions. Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </footer>
 </body>
+
 </html>
