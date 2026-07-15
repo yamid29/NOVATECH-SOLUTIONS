@@ -1,0 +1,19 @@
+*   [33mb188ff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mDevDos[m[33m, [m[1;31morigin/DevDos[m[33m)[m Merge branch 'main' into DevDos
+[31m|[m[32m\[m  
+* [32m|[m [33m3ad66c6[m agrege la parte servicios al index prinsipal
+[32m|[m [32m|[m * [33mf538dcf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #3 from yamid29/Dev
+[32m|[m [32m|[m[32m/[m[34m|[m 
+[32m|[m [32m|[m * [33m2de04c2[m[33m ([m[1;31morigin/Dev[m[33m, [m[1;32mDev[m[33m)[m Merge branch 'Dev' of https://github.com/yamid29/NOVATECH-SOLUTIONS into Dev
+[32m|[m [32m|[m[32m/[m[36m|[m 
+[32m|[m [32m|[m * [33mc876210[m nuevos cambios de Dev, seccion nosotros y seccion css responsive
+[32m|[m * [36m|[m   [33m3ac0ef0[m[33m ([m[1;32mmain[m[33m)[m Merge pull request #2 from yamid29/DevDos
+[32m|[m [1;31m|[m[32m\[m [36m\[m  
+[32m|[m [1;31m|[m[32m/[m [36m/[m  
+[32m|[m[32m/[m[1;31m|[m [36m|[m   
+* [1;31m|[m [36m|[m [33me2aa5d0[m Mejora del banner y encabezado
+[1;31m|[m[1;31m/[m [36m/[m  
+* [36m|[m [33maff0b05[m Merge pull request #1 from yamid29/Dev
+[1;33m|[m[36m\[m[36m|[m 
+[1;33m|[m * [33m22f00e5[m feat: crear header y menu de navegación
+[1;33m|[m[1;33m/[m  
+* [33mf34824c[m crear estructura inicial del proyecto

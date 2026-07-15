@@ -47,6 +47,14 @@ header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E5E7EB;
     position: static;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 1000;
 }
 
 
@@ -111,9 +119,16 @@ nav ul li a:hover {
 
     align-items: center;
 
-    padding: 40px 80px;
+    min-height: 85vh;
 
-    gap: 40px;
+    padding: 120px 80px 70px;
+
+    gap: 60px;
+
+    background: linear-gradient(135deg,#F8FAFC,#E0ECFF);
+
+    margin-top: 40px;
+
 
 }
 
@@ -122,13 +137,15 @@ nav ul li a:hover {
 
 .banner-texto {
 
-    width: 48%;
+    width: 50%;
 
 }
 
 .banner-texto h2 {
 
-    font-size: 44px;
+    font-size: 52px;
+
+    font-weight: 700;
 
     color: #1f3c88;
 
@@ -169,7 +186,9 @@ nav ul li a:hover {
 
     font-weight: bold;
 
-    transition: 0.3s;
+    transition: .3s;
+
+    box-shadow: 0 10px 25px rgba(31,60,136,.30);
 
 }
 
@@ -184,13 +203,17 @@ nav ul li a:hover {
 
 .banner-imagen {
 
-    width: 52%;
+    width: 50%;
+
+    display: flex;
+
+    justify-content: center;
 
 }
 
 .banner-imagen img {
 
-    width: 100%;
+    width: 95%;
 
     display: block;
 
